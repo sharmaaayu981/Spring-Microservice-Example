@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8099
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sharmaaayu981/Spring-Config
